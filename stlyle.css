@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: burlywood;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#evil-button {
+    display: flex;
+    position: absolute;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+   width: 150px;
+    height: 30px;
+    padding: 0;
+    border: none;
+    background-color: aqua;
+}
+
+#simple-button {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    width: 150px;
+    height: 30px;
+    padding: 0;
+    border: none;
+    background-color: aqua;
+
+}
+.button-box {
+    display: flex;
+    position: relative;
+    width:150px;
+    height: 30px;
+
+}
+.chapter-box {
+    display: flex;
+    position: relative;
+    width: 15%;
+    height: 10%;
+    margin-bottom: 50px;
+    align-self: center;
+    margin-left: 3%;
+}
