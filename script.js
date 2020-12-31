@@ -1,10 +1,7 @@
 const evilButton = document.getElementById('evil-button');
 const OFFSET = 100;
-const simpleButton = document.getElementById('simple-button');
 
-simpleButton.addEventListener('click',() => {
-    alert('HAAHAHHAHAHAHAHAHAHHAHAHAH');
-})
+
 evilButton.addEventListener('click', () => {
     alert('Nice try');
     window.close()
