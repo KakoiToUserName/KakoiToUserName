@@ -32,8 +32,13 @@ function createSnow () {
 	snowFlake.style.left = Math.random() * window.innerWidth + 'px'
 	snowFlake.style.animationDuration = Math.random() *2 +3 +'s'
 	snowFlake.style.opacity = Math.random();
+	snowFlake.style.color = setColor();
 
 	document.body.appendChild(snowFlake)
 	setTimeout(() =>snowFlake.remove(),5000)
 }
 setInterval(createSnow,100)
+
+function setColor () {
+	return Math.random() <0.5 ? '#fff' : 'red'
+}
